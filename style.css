@@ -1,0 +1,40 @@
+*{
+    background-color: rgb(247, 165, 66);
+    font-weight: bolder;
+    font-style: normal;
+    font-size: large;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-transform: uppercase;
+}
+
+
+h1{
+    color: rgb(229, 235, 230);
+    background-color: rgb(123, 189, 142);
+    background-size: 180px;
+    border-radius: 15px;
+    width: 180px;
+    height: 25px;
+    text-align: center;
+    justify-content: center;
+    padding: 10px;
+   
+    
+   
+}
+header,main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+img{
+    border-radius: 15px;
+}
+
+button{
+    width: 180px;
+    height: 40px;
+    border-radius: 15px;
+    background: rgb(156, 109, 179);
+    color: rgb(255, 255, 255);
+}
